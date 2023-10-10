@@ -7,6 +7,9 @@ body {
   margin: 0 auto;
   text-align: center;
 }
+#display {
+  text-align: right;
+}
 input, button, .clear {
   border-radius: 5px;
   border: 1px solid rgba(20,20,20,30%);
