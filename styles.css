@@ -1,0 +1,33 @@
+body {
+  font-style: sans-serif;
+  background-color: rgba(20,20,20,10%);
+}
+#calculator {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+input, button, .clear {
+  border-radius: 5px;
+  border: 1px solid rgba(20,20,20,30%);
+  box-shadow: 0 0 7px 1px rgba(10,10,10,20%);
+}
+input {
+  width: 90%;
+  padding: 10px;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+button {
+  width: 25%;
+  padding: 10px;
+  font-size: 18px;
+  background-color: white;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.clear {
+  width: 100%;
+}
